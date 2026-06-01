@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Room Makeover Landing Page
 
-## Getting Started
+Sebuah proyek *landing page* modern untuk bisnis/layanan kustomisasi kamar estetis dan *desk setup*. Proyek ini dibuat untuk melatih kemampuan *slicing* desain komponen UI yang responsif dan interaktif.
 
-First, run the development server:
+## Tech Stack
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **Icons:** Phosphor Icons / Lucide React
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fitur Utama
+* **Responsive Layout:** Tampilan adaptif dari ukuran layar HP (Mobile-first) hingga Laptop.
+* **Hero Section:** Desain intro yang menarik dengan tombol Call-to-Action (CTA).
+* **Product Showcase:** Layout Grid 3 kolom yang rapi untuk menampilkan kategori utama (Ambient Lighting, Wall Panels, & Retro Collectibles) lengkap dengan efek *hover hover* interaktif.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Cara Menjalankan Proyek di Lokal
+1. Clone repository ini:
+   ```bash
+   git clone [https://github.com/username-lu/room-makeover-landing-page.git](https://github.com/username-lu/room-makeover-landing-page.git)
