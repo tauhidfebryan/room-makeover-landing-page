@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='min-h-[89vh] md:flex'>
+    <section className='min-h-[89vh] md:flex bg-primary'>
       <div className='flex items-center px-4 py-4 md:py-0 w-full md:w-1/2'>
         <Image
           src="/hero-room.png"
