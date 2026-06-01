@@ -37,6 +37,8 @@ const ProductShowcase = () => {
                             <Image src={item.src}
                                 alt={item.title}
                                 fill
+                                loading='eager'
+                                sizes="(max-width: 768px) 100vw, 33vw"
                                 className='object-cover group-hover:scale-110 transition duration-500' />
                         </div>
                         <div className='flex flex-col gap-8 py-6 px-4'>
