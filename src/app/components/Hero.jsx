@@ -4,13 +4,16 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className='min-h-[89vh] md:flex'>
-      <div className='flex items-center px-4 py-4 md:py-0'>
+      <div className='flex items-center px-4 py-4 md:py-0 w-full md:w-1/2'>
         <Image
           src="/hero-room.png"
           width={650}
           height={650}
-          alt=''
-          className='rounded-2xl shadow-[4px_4px_6px_0px_rgba(0,0,0,0.1)]' />
+          alt='Hero Room'
+          loading='eager'
+          // h-auto memastikan rasio gambar (aspect ratio) tetap terjaga dan tidak penyok
+          className='rounded-2xl shadow-[4px_4px_6px_0px_rgba(0,0,0,0.1)] w-full h-auto'
+        />
       </div>
 
       <div className='flex flex-col gap-8 md:py-12 px-2 w-full max-w-xl'>
